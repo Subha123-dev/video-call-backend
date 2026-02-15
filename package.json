@@ -1,14 +1,13 @@
 {
   "name": "video-call-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Video call backend using Express, Socket.io and Agora",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "agora-access-token": "^2.0.4",
     "cors": "^2.8.6",
@@ -17,3 +16,4 @@
     "socket.io": "^4.8.3"
   }
 }
+
